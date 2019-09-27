@@ -109,6 +109,7 @@
             this.button2.TabIndex = 7;
             this.button2.Text = "Изменить пароль";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // textBox1
             // 

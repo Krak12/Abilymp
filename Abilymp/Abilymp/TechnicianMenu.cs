@@ -16,5 +16,25 @@ namespace Abilymp
         {
             InitializeComponent();
         }
+
+        private void AssignedOrdersBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.assignedOrdersBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.dbDataSet);
+
+        }
+
+        private void TechnicianMenu_Load(object sender, EventArgs e)
+        {
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "dbDataSet.AssignedOrders". При необходимости она может быть перемещена или удалена.
+            this.assignedOrdersTableAdapter.Fill(this.dbDataSet.AssignedOrders);
+
+        }
+
+        private void Button8_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
