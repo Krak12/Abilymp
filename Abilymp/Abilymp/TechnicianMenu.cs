@@ -32,9 +32,21 @@ namespace Abilymp
 
         }
 
-        private void Button8_Click(object sender, EventArgs e)
+        //переходы по tabPage
+        private void Button1_Click(object sender, EventArgs e)
         {
+            tabControl1.SelectedTab = tabPage1;
+        }
 
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedTab = tabPage1;
+        }
+
+        //закрытие формы
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

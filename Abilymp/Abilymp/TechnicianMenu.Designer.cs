@@ -31,24 +31,30 @@
             this.components = new System.ComponentModel.Container();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.dbDataSet = new Abilymp.dbDataSet();
-            this.assignedOrdersBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.assignedOrdersTableAdapter = new Abilymp.dbDataSetTableAdapters.AssignedOrdersTableAdapter();
-            this.tableAdapterManager = new Abilymp.dbDataSetTableAdapters.TableAdapterManager();
             this.assignedOrdersDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.assignedOrdersBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dbDataSet = new Abilymp.dbDataSet();
+            this.label1 = new System.Windows.Forms.Label();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -62,26 +68,20 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.assignedOrdersTableAdapter = new Abilymp.dbDataSetTableAdapters.AssignedOrdersTableAdapter();
+            this.tableAdapterManager = new Abilymp.dbDataSetTableAdapters.TableAdapterManager();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dbDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.assignedOrdersBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.assignedOrdersDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.assignedOrdersBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dbDataSet)).BeginInit();
+            this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -111,24 +111,39 @@
             this.panel1.Size = new System.Drawing.Size(439, 743);
             this.panel1.TabIndex = 0;
             // 
-            // panel2
+            // panel4
             // 
-            this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(439, 313);
-            this.panel2.TabIndex = 0;
+            this.panel4.Controls.Add(this.button3);
+            this.panel4.Controls.Add(this.button2);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel4.Location = new System.Drawing.Point(0, 569);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(439, 174);
+            this.panel4.TabIndex = 2;
             // 
-            // pictureBox1
+            // button3
             // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::Abilymp.Properties.Resources.Снимок;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(439, 313);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(95, 114);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(222, 51);
+            this.button3.TabIndex = 1;
+            this.button3.Text = "Выход";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.Button3_Click);
+            // 
+            // button2
+            // 
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(95, 57);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(222, 51);
+            this.button2.TabIndex = 0;
+            this.button2.Text = "Мой профиль";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // panel3
             // 
@@ -149,16 +164,26 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Заявки";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
-            // panel4
+            // panel2
             // 
-            this.panel4.Controls.Add(this.button3);
-            this.panel4.Controls.Add(this.button2);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(0, 569);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(439, 174);
-            this.panel4.TabIndex = 2;
+            this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(439, 313);
+            this.panel2.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = global::Abilymp.Properties.Resources.Снимок;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(439, 313);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // tabControl1
             // 
@@ -186,6 +211,54 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // assignedOrdersDataGridView
+            // 
+            this.assignedOrdersDataGridView.AutoGenerateColumns = false;
+            this.assignedOrdersDataGridView.BackgroundColor = System.Drawing.Color.White;
+            this.assignedOrdersDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.assignedOrdersDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn1,
+            this.dataGridViewTextBoxColumn2});
+            this.assignedOrdersDataGridView.DataSource = this.assignedOrdersBindingSource;
+            this.assignedOrdersDataGridView.Location = new System.Drawing.Point(0, 75);
+            this.assignedOrdersDataGridView.Name = "assignedOrdersDataGridView";
+            this.assignedOrdersDataGridView.RowHeadersVisible = false;
+            this.assignedOrdersDataGridView.Size = new System.Drawing.Size(802, 659);
+            this.assignedOrdersDataGridView.TabIndex = 1;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "OrderID";
+            this.dataGridViewTextBoxColumn1.HeaderText = "ID заявки";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.Width = 200;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "Technician";
+            this.dataGridViewTextBoxColumn2.HeaderText = "Техник";
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.Width = 200;
+            // 
+            // assignedOrdersBindingSource
+            // 
+            this.assignedOrdersBindingSource.DataMember = "AssignedOrders";
+            this.assignedOrdersBindingSource.DataSource = this.dbDataSet;
+            // 
+            // dbDataSet
+            // 
+            this.dbDataSet.DataSetName = "dbDataSet";
+            this.dbDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(361, 17);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(105, 38);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Заявки";
             // 
             // tabPage2
             // 
@@ -218,89 +291,69 @@
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // textBox8
             // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(95, 57);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(222, 51);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "Мой профиль";
-            this.button2.UseVisualStyleBackColor = true;
+            this.textBox8.Location = new System.Drawing.Point(213, 441);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.ReadOnly = true;
+            this.textBox8.Size = new System.Drawing.Size(303, 45);
+            this.textBox8.TabIndex = 54;
             // 
-            // button3
+            // textBox7
             // 
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(95, 114);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(222, 51);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "Выход";
-            this.button3.UseVisualStyleBackColor = true;
+            this.textBox7.Location = new System.Drawing.Point(213, 390);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.ReadOnly = true;
+            this.textBox7.Size = new System.Drawing.Size(303, 45);
+            this.textBox7.TabIndex = 53;
             // 
-            // label1
+            // textBox6
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(361, 17);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 38);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Заявки";
+            this.textBox6.Location = new System.Drawing.Point(213, 339);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.ReadOnly = true;
+            this.textBox6.Size = new System.Drawing.Size(303, 45);
+            this.textBox6.TabIndex = 52;
             // 
-            // dbDataSet
+            // textBox5
             // 
-            this.dbDataSet.DataSetName = "dbDataSet";
-            this.dbDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.textBox5.Location = new System.Drawing.Point(213, 288);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.ReadOnly = true;
+            this.textBox5.Size = new System.Drawing.Size(303, 45);
+            this.textBox5.TabIndex = 51;
             // 
-            // assignedOrdersBindingSource
+            // textBox4
             // 
-            this.assignedOrdersBindingSource.DataMember = "AssignedOrders";
-            this.assignedOrdersBindingSource.DataSource = this.dbDataSet;
+            this.textBox4.Location = new System.Drawing.Point(213, 234);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.ReadOnly = true;
+            this.textBox4.Size = new System.Drawing.Size(303, 45);
+            this.textBox4.TabIndex = 50;
             // 
-            // assignedOrdersTableAdapter
+            // textBox3
             // 
-            this.assignedOrdersTableAdapter.ClearBeforeFill = true;
+            this.textBox3.Location = new System.Drawing.Point(213, 183);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
+            this.textBox3.Size = new System.Drawing.Size(303, 45);
+            this.textBox3.TabIndex = 49;
             // 
-            // tableAdapterManager
+            // textBox2
             // 
-            this.tableAdapterManager.AssignedOrdersTableAdapter = this.assignedOrdersTableAdapter;
-            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.OrdersTableAdapter = null;
-            this.tableAdapterManager.TypeAccountTableAdapter = null;
-            this.tableAdapterManager.TypeServicesTableAdapter = null;
-            this.tableAdapterManager.UpdateOrder = Abilymp.dbDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
-            this.tableAdapterManager.WorkersTableAdapter = null;
+            this.textBox2.Location = new System.Drawing.Point(213, 132);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(303, 45);
+            this.textBox2.TabIndex = 48;
             // 
-            // assignedOrdersDataGridView
+            // textBox1
             // 
-            this.assignedOrdersDataGridView.AutoGenerateColumns = false;
-            this.assignedOrdersDataGridView.BackgroundColor = System.Drawing.Color.White;
-            this.assignedOrdersDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.assignedOrdersDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn1,
-            this.dataGridViewTextBoxColumn2});
-            this.assignedOrdersDataGridView.DataSource = this.assignedOrdersBindingSource;
-            this.assignedOrdersDataGridView.Location = new System.Drawing.Point(0, 75);
-            this.assignedOrdersDataGridView.Name = "assignedOrdersDataGridView";
-            this.assignedOrdersDataGridView.RowHeadersVisible = false;
-            this.assignedOrdersDataGridView.Size = new System.Drawing.Size(802, 659);
-            this.assignedOrdersDataGridView.TabIndex = 1;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "OrderID";
-            this.dataGridViewTextBoxColumn1.HeaderText = "ID заявки";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.Width = 200;
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "Technician";
-            this.dataGridViewTextBoxColumn2.HeaderText = "Техник";
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.Width = 200;
+            this.textBox1.Location = new System.Drawing.Point(213, 81);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(303, 45);
+            this.textBox1.TabIndex = 47;
             // 
             // button7
             // 
@@ -422,69 +475,19 @@
             this.label7.TabIndex = 34;
             this.label7.Text = "Мой профиль";
             // 
-            // textBox1
+            // assignedOrdersTableAdapter
             // 
-            this.textBox1.Location = new System.Drawing.Point(213, 81);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(303, 45);
-            this.textBox1.TabIndex = 47;
+            this.assignedOrdersTableAdapter.ClearBeforeFill = true;
             // 
-            // textBox2
+            // tableAdapterManager
             // 
-            this.textBox2.Location = new System.Drawing.Point(213, 132);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(303, 45);
-            this.textBox2.TabIndex = 48;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(213, 183);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(303, 45);
-            this.textBox3.TabIndex = 49;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(213, 234);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(303, 45);
-            this.textBox4.TabIndex = 50;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(213, 288);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(303, 45);
-            this.textBox5.TabIndex = 51;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(213, 339);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.ReadOnly = true;
-            this.textBox6.Size = new System.Drawing.Size(303, 45);
-            this.textBox6.TabIndex = 52;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(213, 390);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.ReadOnly = true;
-            this.textBox7.Size = new System.Drawing.Size(303, 45);
-            this.textBox7.TabIndex = 53;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(213, 441);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.ReadOnly = true;
-            this.textBox8.Size = new System.Drawing.Size(303, 45);
-            this.textBox8.TabIndex = 54;
+            this.tableAdapterManager.AssignedOrdersTableAdapter = this.assignedOrdersTableAdapter;
+            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.OrdersTableAdapter = null;
+            this.tableAdapterManager.TypeAccountTableAdapter = null;
+            this.tableAdapterManager.TypeServicesTableAdapter = null;
+            this.tableAdapterManager.UpdateOrder = Abilymp.dbDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            this.tableAdapterManager.WorkersTableAdapter = null;
             // 
             // TechnicianMenu
             // 
@@ -499,18 +502,18 @@
             this.Load += new System.EventHandler(this.TechnicianMenu_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel3.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.assignedOrdersDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.assignedOrdersBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dbDataSet)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dbDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.assignedOrdersBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.assignedOrdersDataGridView)).EndInit();
             this.ResumeLayout(false);
 
         }
